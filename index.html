@@ -4,69 +4,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
 </head>
 <body>
-    <div>
-    <header>
-        <h1>PORTFOLIO</h1>
-        <nav>
-            <div>IMANA OLUWASEUN</div>
-            <div>
-                <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#about">ABOUT</a></li>
-                    <li><a href="#">WORK</a></li>
-                    <li><a href="#qualities">RESUME</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
-                </ul>
+    <nav>
+        <div class="logo">
+            <h1><i class="fa fa-bomb" aria-hidden="true"></i> Imana Oluwaseun</h1>
         </div>
-        </nav>
-    </header>
+        <div class="links">
+             <a href="#first-page">Home</a></li>
+             <a href="#work">Work</a></li>
+             <a href="about.html">About</a></li>
+        </div>
+    </nav>
+    
+    <div id="first-page">
+        <div class="left">
+            <img src="image1.jfif" alt="">
+        </div>
+
+        <div class="right">
+            <h1><span>HELLO!</span></h1>
+            <h3><span>I'm Seun, a fullstack developer at GoMyCode.</span></h3>
+        </div>
     </div>
-<br>
-<hr>
-<br>
-    <main>
-        <img width="500" height="500" src="image.jpg" alt="me">
-<br>
-        <div>
-            <h2 id="about">ABOUT ME</h2>
-                <p>Hey, my name is Seun and I'm learning fullstack development at GoMyCode!</p>
+
+    <br>
+    <hr>
+    <br>
+
+    <div id="work">
+        <div class="html">
+            <div class="html-content1">
+                <h2><i class="fa fa-circle" aria-hidden="true"></i>HTML</h2>
+                <img class="html-logo" src="image2.png" alt="HTML">
+            </div>
+
+            <div class="html-content2">
+                <h4>Deft knowledge in the understanding and applications of html in web design. <p>Our porfolio consists of numerous HTML projects.</p></h4>
+                <br>
+                <button>View Projects<i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+            </div>
         </div>
-        <div>
-            <h2 id="qualities">QUALITIES</h2>
-                <ol>
-                    <li>Team player</li>
-                    <li>Critical Thinker</li>
-                    <li>Go getter</li> 
-                </ol>
-        </div>    
-<br>   
-<br>
-<br>
-        <div>
-            <h2>Sign Up For My Newsletter</h2>
-            <form action="">
-                <label for="Name">Name:</label>
-                <input placeholder="Name" type="text"><br><br>
-                <label for="email">Email:</label>
-                <input placeholder="Email" type="email"><br><br>
-                <button>Sign Up</button>
-            </form>
+
+        <br>
+        <div class="HTML-info">
+            <img src="Screenshot1.png" alt="HTML infographic">
         </div>
-<br>
-<br>
-<br>
-        <div>
-            <h3 id="contact">Contact Me</h3>
-                Email: <a href="mailto:imob13.mi@gmail.com">imob13.mi@gmail.com</a><br>
-                Tel: <a href="tel:+234 818 207 6751">+234 818 207 6751</a>
+
+
+        <br><br><br><br>
+        <hr>
+        <br>
+
+        <div class="css">
+            <div class="css-content1">
+                <h2><i class="fa fa-stop" aria-hidden="true"></i>CSS</h2>
+                <img class="css-logo" src="image3.png" alt="CSS">
+            </div>
+
+            <div class="css-content2">
+                <h4>Our portfolio also consists of various css works and projects <p>Our web designs have been implemented by </p></h4>
+                <br>
+                <button>View Projects<i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+            </div>
         </div>
-<br><hr>            
-    </main>   
+
+        <br>
+        <div class="CSS-info">
+            <img src="image4.jfif" alt="CSS infographic">
+        </div>
+
+        <br><br><br><br>
+        <hr>
+        <br>
+    </div>
+
     <footer>
-        Copyright &copy; [Imana Oluwaseun] [2023]
-    </footer> 
+        <h2><i class="fa fa-heart" aria-hidden="true"></i>CONTACT</h2>
+        <div class="contact">
+            <a target="_blank" href="https://www.instagram.com/accounts/login/"><i class="fa-brands fa-instagram"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/login"><i class="fa-brands fa-linkedin"></i></a>
+            <a target="_blank" href="mailto: imob13.mi@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            <a target="_blank" href="Resume.pdf">Resume</a>
+        </div>
+    </footer>
+
+
 </body>
 </html>
